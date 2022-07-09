@@ -23,4 +23,4 @@ Test out MMdetection3d model on Kitti dataset.
 **Method:** PointPillar 3d 3class <br>
 **Terminal execution under the folder of ./mmdetection3d/**
 : python tools/train.py configs/pointpillars/hv_pointpillars_secfpn_6x8_160e_kitti-3d-car.py --work-dir ./pointpillar_kitti_3d_work_dir/ <br>
-**Note:** traning epochs is reduced from 80 to 10, because of the limited job run time in HPC node. 
+**Note:** training epochs are reduced from 80 to 10, because run-time for jobs in HPC GPU node are limited. 
