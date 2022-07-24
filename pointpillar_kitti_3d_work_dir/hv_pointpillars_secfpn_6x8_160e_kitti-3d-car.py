@@ -320,7 +320,7 @@ dist_params = dict(backend='nccl')
 log_level = 'INFO'
 work_dir = './pointpillar_kitti_3d_work_dir/'
 load_from = None
-resume_from = None
+resume_from = './pointpillar_kitti_3d_work_dir/latest.pth'
 workflow = [('train', 1)]
 opencv_num_threads = 0
 mp_start_method = 'fork'
