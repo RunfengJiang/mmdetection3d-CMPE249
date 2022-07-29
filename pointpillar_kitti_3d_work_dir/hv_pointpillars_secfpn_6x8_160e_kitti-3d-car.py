@@ -210,7 +210,7 @@ data = dict(
         type='KittiDataset',
         data_root='data/kitti/',
         ann_file='data/kitti/kitti_infos_val.pkl',
-        split='training',
+        split='testing',
         pts_prefix='velodyne_reduced',
         pipeline=[
             dict(
@@ -248,7 +248,7 @@ data = dict(
         type='KittiDataset',
         data_root='data/kitti/',
         ann_file='data/kitti/kitti_infos_val.pkl',
-        split='training',
+        split='testing',
         pts_prefix='velodyne_reduced',
         pipeline=[
             dict(
